@@ -64,7 +64,7 @@ function buildPrompt(line, shot, withScene = true) {
 const hashOf = (line, model) =>
   crypto
     .createHash('sha1')
-    .update(JSON.stringify([PROMPT_VERSION, model, line.text, line.dir, line.fx, CAST[line.who].voice, CAST[line.who].persona, CAST[line.who].post]))
+    .update(JSON.stringify([PROMPT_VERSION, model, line.text, line.dir, line.fx, CAST[line.who].voice, CAST[line.who].persona]))
     .digest('hex')
     .slice(0, 12);
 
@@ -140,12 +140,13 @@ async function qaCheck(wav, line) {
   }
 }
 
-// Trim leading/trailing silence, apply the character's post filter, encode FLAC.
-async function finish(wavIn, outFile, post) {
-  const trim =
+// Trim leading/trailing silence and encode FLAC. The take is stored raw: each
+// character's effect chain (cast.js `post`) is applied at mix time, so voices can
+// be re-styled without paying for new takes.
+async function finish(wavIn, outFile) {
+  const filters =
     'silenceremove=start_periods=1:start_threshold=-48dB:start_silence=0.06,' +
     'areverse,silenceremove=start_periods=1:start_threshold=-48dB:start_silence=0.12,areverse';
-  const filters = [trim, post].filter(Boolean).join(',');
   await run('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-af', filters, '-ar', '24000', '-ac', '1', '-c:a', 'flac', outFile], {
     input: wavIn,
   });
@@ -202,7 +203,7 @@ async function main() {
     }
     if (!best) throw new Error(`No audio for ${line.id}`);
     const file = `${line.id}.flac`;
-    const duration = await finish(best.wav, path.join(dir, file), c.post);
+    const duration = await finish(best.wav, path.join(dir, file));
     manifest[line.id] = {
       file,
       duration: +duration.toFixed(3),

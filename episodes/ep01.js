@@ -21,7 +21,7 @@ export default {
   number: 1,
   title: 'Two Skies, One Grave',
   defaults: {
-    post: { grain: 0.07, vignette: 0.55, letterbox: 0.0 },
+    post: { grain: 0.05, vignette: 0.55, letterbox: 0.0 },
   },
   sequences: [
     // ────────────────────────────────────────────────────────────── FLASH-FORWARD
@@ -82,7 +82,7 @@ export default {
     {
       id: 'C',
       title: 'Cold Open — The Execution',
-      defaults: { post: { letterbox: 0.11, grain: 0.09 } },
+      defaults: { post: { letterbox: 0.11, grain: 0.065 } },
       tracks: [
         {
           type: 'countdown',
@@ -170,7 +170,7 @@ export default {
           ],
           tail: 1.8,
           audio: [
-            { cue: 'ticking', at: 0, dur: 'shot', rate: -1, vol: 0.5 },
+            { cue: 'ticking', at: 0, dur: 'shot', rate: -1, vol: 0.3 },
             { cue: 'lullaby', at: 'L1e+0.2', vol: 0.4, detune: 0.35 },
           ],
         },
@@ -221,8 +221,8 @@ export default {
             { who: 'YESTERDAY', text: 'Everyone does.', dir: 'a soft, knowing whisper', fx: 'whisper', pre: 0.8 },
           ],
           audio: [
-            { cue: 'impact', at: 'L0', vol: 1 },
-            { cue: 'glitch', at: 'L0', dur: 1.2, vol: 0.5 },
+            { cue: 'impact', at: 'L0', vol: 0.7 },
+            { cue: 'glitch', at: 'L0', dur: 1.2, vol: 0.35 },
             { cue: 'thunder', at: 'L0+0.2', vol: 0.6 },
           ],
         },
@@ -492,7 +492,10 @@ export default {
               pre: 0.3,
             },
           ],
-          audio: [{ cue: 'ticking', at: 0, dur: 'toEnd:A1-04', rate: 1, vol: 0.12 }],
+          audio: [
+            { cue: 'ticking', at: 0, dur: 'toEnd:A1-04', rate: 1, vol: 0.12 },
+            { cue: 'room', at: 0, dur: 'toEnd:A1-09', vol: 0.3 },
+          ],
         },
         {
           id: 'A1-03',
@@ -679,6 +682,7 @@ export default {
           scene: 'shop',
           params: { time: 'afternoon', elias: 'desk', letterFocus: true },
           action: 'Later. She is gone. Elias alone, a bloodied tissue in his fist, staring at the letter under the paperweight.',
+          audio: [{ cue: 'room', at: 0, dur: 'shot', vol: 0.3 }],
           lines: [
             { who: 'ELIAS', vo: true, text: 'Everything remembers being made.', dir: 'quiet narration', fx: 'type', pre: 1.2 },
             {
@@ -710,6 +714,7 @@ export default {
             { cue: 'jingle', at: 0.2, dur: 2.6, vol: 0.35 },
             { cue: 'static', at: 2.6, dur: 3, vol: 0.3 },
             { cue: 'hum', at: 2.2, dur: 'toEnd:A2-08', vol: 0.35 },
+            { cue: 'room', at: 0, dur: 'toEnd:A2-03', vol: 0.3 },
           ],
         },
         {
@@ -832,7 +837,10 @@ export default {
             { who: 'ELIAS', vo: true, text: "I'm very good at that.", dir: 'dry, rueful', fx: 'type', pre: 0.6 },
           ],
           tail: 1.3,
-          audio: [{ cue: 'static', at: 0, dur: 0.25, vol: 0.4 }],
+          audio: [
+            { cue: 'static', at: 0, dur: 0.25, vol: 0.4 },
+            { cue: 'room', at: 0, dur: 'shot', vol: 0.3 },
+          ],
         },
       ],
     },
@@ -854,6 +862,7 @@ export default {
             { cue: 'buzzSign', at: 0, dur: 5, vol: 0.2 },
             { cue: 'thunder', at: 2.5, vol: 0.4, far: true },
             { cue: 'tension', at: 0, dur: 'toEnd:A3-06', vol: 0.3, bpm: 60 },
+            { cue: 'room', at: 5, dur: 'toEnd:A3-11', vol: 0.3 },
           ],
         },
         {
@@ -995,7 +1004,7 @@ export default {
     {
       id: 'A4',
       title: 'Act Four — The Incursion',
-      defaults: { post: { letterbox: 0.11, grain: 0.09 } },
+      defaults: { post: { letterbox: 0.11, grain: 0.065 } },
       tracks: [
         { type: 'ring', color: 'violet', cracked: true, keys: [['A4-01', 'start', 180], ['A4-01', 'end', 140]] },
         {
@@ -1194,7 +1203,11 @@ export default {
           action: 'SNAP BACK. The shop floor. Elias convulses awake, gasping. Blood from his nose. From his ear.',
           post: { flash: [0, 0.35] },
           lines: [{ who: 'ELIAS', text: 'Hhhah—!', dir: 'a violent, ragged gasp for air, like surfacing from deep water', fx: 'none', at: 0.15, nonverbal: true }],
-          audio: [{ cue: 'snap', at: 0, vol: 1 }, { cue: 'rain', at: 0.3, dur: 'toEnd:G03', vol: 0.25 }],
+          audio: [
+            { cue: 'snap', at: 0, vol: 1 },
+            { cue: 'rain', at: 0.3, dur: 'toEnd:G03', vol: 0.25 },
+            { cue: 'room', at: 0, dur: 'toEnd:G05', vol: 0.3 },
+          ],
         },
         {
           id: 'G02',

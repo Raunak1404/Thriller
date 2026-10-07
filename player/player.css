@@ -1,0 +1,33 @@
+:root {
+  --bg: #050307;
+  --panel: #0e0a12;
+  --ink: #f2ead8;
+  --muted: #9a8fa8;
+  --accent: #c9a2ff;
+  --hot: #ff5fd2;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+body { display: flex; flex-direction: column; overflow: hidden; }
+#stage { flex: 1; min-height: 0; display: grid; place-items: center; position: relative; background: #000; }
+#screen { max-width: 100%; max-height: 100%; aspect-ratio: 16 / 9; width: 100%; height: auto; object-fit: contain; display: block; cursor: pointer; }
+#loading { position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); letter-spacing: 0.2em; text-transform: uppercase; font-size: 13px; }
+#controls { background: var(--panel); padding: 10px 16px 12px; border-top: 1px solid #1d1524; }
+#bar { position: relative; height: 14px; background: #1b1422; border-radius: 7px; cursor: pointer; overflow: hidden; }
+#fill { position: absolute; inset: 0 auto 0 0; width: 0; background: linear-gradient(90deg, var(--accent), var(--hot)); opacity: 0.85; pointer-events: none; }
+#chapters { position: absolute; inset: 0; }
+.chapter { position: absolute; top: 0; bottom: 0; border: 0; border-right: 2px solid var(--bg); background: transparent; padding: 0; cursor: pointer; }
+.chapter:hover { background: rgba(255, 255, 255, 0.12); }
+#row { display: flex; align-items: center; gap: 14px; margin-top: 8px; font-size: 13px; color: var(--muted); white-space: nowrap; }
+#row button { background: none; border: 1px solid #2b2233; color: var(--ink); width: 38px; height: 32px; border-radius: 8px; cursor: pointer; font-size: 14px; }
+#row button:hover { border-color: var(--accent); }
+#time { font-variant-numeric: tabular-nums; color: var(--ink); }
+#title { margin-left: auto; overflow: hidden; text-overflow: ellipsis; }
+#noaudio code { color: var(--accent); }
+body.render #controls { display: none; }
+body.render #stage { display: block; }
+body.render #screen { width: auto; max-width: none; max-height: none; }
+@media (max-width: 700px) {
+  #title, #shot { display: none; }
+}

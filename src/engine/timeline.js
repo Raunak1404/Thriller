@@ -124,6 +124,10 @@ export function buildTimeline(episode, manifest = {}) {
     sequences.push({ id: seq.id, title: seq.title, start: seqStart, end: cursor });
   }
 
+  // Each line clears from the screen when the next one begins.
+  const byStart = [...lines].sort((a, b) => a.start - b.start);
+  byStart.forEach((l, i) => (l.cut = byStart[i + 1]?.start ?? Infinity));
+
   const shotById = new Map(shots.map((s) => [s.id, s]));
   const seqById = new Map(sequences.map((s) => [s.id, s]));
 

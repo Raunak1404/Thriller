@@ -5,7 +5,7 @@
 // `cloudVoice` → optional Cloud Text-to-Speech voice for the "cloud" backend
 //                (defaults to <TTS_LOCALE>-Chirp3-HD-<voice>).
 // `persona`    → description sent with every line so the performance stays in character.
-// `post`       → ffmpeg audio filter applied after synthesis (radio, phone, layering…).
+// `post`       → ffmpeg audio filter applied at mix time (radio, phone, layering…).
 //
 // Swap voices freely; regenerate with `npm run voices -- --force --who YESTERDAY`.
 
@@ -18,7 +18,6 @@ export const CAST = {
     persona:
       'Mister Yesterday: a gaunt man around sixty. Gravelly, worn, intelligent. ' +
       'His voice swings from a tender whisper to a full-throated scream in a single breath. Menacing, theatrical, unpredictable, and secretly grieving.',
-    post: 'aecho=0.8:0.6:60:0.18',
   },
   ELIAS: {
     name: 'Elias',
@@ -51,8 +50,8 @@ export const CAST = {
     voice: 'Kore',
     persona:
       'Atropos: an ancient masked figure, secretly Seren after millennia of war. Slow, hushed, impossibly tired, regal.',
-    // Layered, slightly pitched-down chorus so she sounds like many of herself.
-    post: 'asetrate=24000*0.93,aresample=24000,chorus=0.6:0.9:55|70|90:0.4|0.32|0.3:0.25|0.4|0.3:2|1.3|1.7,aecho=0.8:0.7:120:0.25',
+    // Layered, pitched-down chorus (tempo-compensated) so she sounds like many of herself.
+    post: 'asetrate=24000*0.93,aresample=24000,atempo=1.0753,chorus=0.6:0.9:55|70|90:0.4|0.32|0.3:0.25|0.4|0.3:2|1.3|1.7,aecho=0.8:0.7:120:0.25',
   },
   PEMBERTON: {
     name: 'Mrs. Pemberton',

@@ -14,7 +14,7 @@
     "build": "npm run voices && npm run soundtrack && npm run render"
   },
   "devDependencies": {
-    "playwright": "^1.56.1"
+    "playwright": "1.56.1"
   },
   "engines": {
     "node": ">=20"

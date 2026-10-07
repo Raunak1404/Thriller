@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Anchor of Yesterday</title>
+    <link rel="stylesheet" href="../assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="./player.css" />
+  </head>
+  <body>
+    <main id="stage">
+      <canvas id="screen" width="1920" height="1080" aria-label="Episode playback"></canvas>
+      <div id="loading">Loading episode…</div>
+    </main>
+    <footer id="controls">
+      <div id="bar" role="slider" aria-label="Seek">
+        <div id="chapters"></div>
+        <div id="fill"></div>
+      </div>
+      <div id="row">
+        <button id="play" aria-label="Play">▶</button>
+        <span id="time">0:00 / 0:00</span>
+        <span id="shot"></span>
+        <span id="title"></span>
+        <span id="noaudio" hidden>no soundtrack found, run <code>npm run soundtrack</code></span>
+        <button id="fs" aria-label="Fullscreen">⛶</button>
+      </div>
+    </footer>
+    <audio id="audio" preload="auto"></audio>
+    <script type="module" src="./player.js"></script>
+  </body>
+</html>
