@@ -1,0 +1,1432 @@
+{
+  "A1-02-0": {
+    "file": "A1-02-0.flac",
+    "duration": 5.115,
+    "who": "ELIAS",
+    "text": "Everything that was ever made remembers being made.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "d5d732529067",
+    "qa": "ok"
+  },
+  "A1-02-1": {
+    "file": "A1-02-1.flac",
+    "duration": 2.921,
+    "who": "ELIAS",
+    "text": "A chair remembers the carpenter.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "4d141a453600",
+    "qa": "ok"
+  },
+  "A1-02-2": {
+    "file": "A1-02-2.flac",
+    "duration": 3.119,
+    "who": "ELIAS",
+    "text": "A ring remembers the furnace.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "daa5271c1427",
+    "qa": "ok"
+  },
+  "A1-02-3": {
+    "file": "A1-02-3.flac",
+    "duration": 4.761,
+    "who": "ELIAS",
+    "text": "A letter remembers the hand that shook while it was written.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "42f093525e2d",
+    "qa": "ok"
+  },
+  "A1-03-0": {
+    "file": "A1-03-0.flac",
+    "duration": 6.541,
+    "who": "ELIAS",
+    "text": "When I touch them, I'm there. The exact moment they were made.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "6054d42976bf",
+    "qa": "ok"
+  },
+  "A1-03-1": {
+    "file": "A1-03-1.flac",
+    "duration": 3.354,
+    "who": "ELIAS",
+    "text": "Watching. Invisible.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "77bef2556844",
+    "qa": "ok"
+  },
+  "A1-03-2": {
+    "file": "A1-03-2.flac",
+    "duration": 1.829,
+    "who": "ELIAS",
+    "text": "So I don't touch much.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "512faf3c4ae0",
+    "qa": "ok"
+  },
+  "A1-04-0": {
+    "file": "A1-04-0.flac",
+    "duration": 2.94,
+    "who": "ELIAS",
+    "text": "I have rules.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "b651e051c38e",
+    "qa": "ok"
+  },
+  "A1-04-1": {
+    "file": "A1-04-1.flac",
+    "duration": 3.548,
+    "who": "ELIAS",
+    "text": "One. Wear the gloves.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "252112b2d55a",
+    "qa": "ok"
+  },
+  "A1-04-2": {
+    "file": "A1-04-2.flac",
+    "duration": 4.334,
+    "who": "ELIAS",
+    "text": "Two. Never stay longer than three minutes.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "a8c6dad8c537",
+    "qa": "ok"
+  },
+  "A1-04-3": {
+    "file": "A1-04-3.flac",
+    "duration": 5.813,
+    "who": "ELIAS",
+    "text": "Three. Never touch anything that's still warm.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "8612b7992268",
+    "qa": "ok"
+  },
+  "A1-04-4": {
+    "file": "A1-04-4.flac",
+    "duration": 1.293,
+    "who": "ELIAS",
+    "text": "Four.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "3ddd3102056d",
+    "qa": "ok"
+  },
+  "A1-04-5": {
+    "file": "A1-04-5.flac",
+    "duration": 2.671,
+    "who": "ELIAS",
+    "text": "Don't open the letter.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "72ff507ed428",
+    "qa": "ok"
+  },
+  "A1-05-0": {
+    "file": "A1-05-0.flac",
+    "duration": 3.169,
+    "who": "RECEPTIONIST",
+    "text": "Mr. Thorne, it's Dr. Hale's office again.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Despina",
+    "hash": "cffd696c2a41",
+    "qa": "ok"
+  },
+  "A1-05-1": {
+    "file": "A1-05-1.flac",
+    "duration": 7.993,
+    "who": "RECEPTIONIST",
+    "text": "It's about your scans. The lesions are... progressing.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Despina",
+    "hash": "31518851795b",
+    "qa": "ok"
+  },
+  "A1-05-2": {
+    "file": "A1-05-2.flac",
+    "duration": 4.11,
+    "who": "RECEPTIONIST",
+    "text": "We really need to talk about how much time—",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Despina",
+    "hash": "8eb5dd9f9b70",
+    "qa": "ok"
+  },
+  "A1-07-0": {
+    "file": "A1-07-0.flac",
+    "duration": 9.614,
+    "who": "PEMBERTON",
+    "text": "Mr. Thorne? They said you're the man who... finds things out. About old things.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "b247a994da79",
+    "qa": "ok"
+  },
+  "A1-07-1": {
+    "file": "A1-07-1.flac",
+    "duration": 3.874,
+    "who": "ELIAS",
+    "text": "I do provenance, Mrs....?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "04c73a183b4a",
+    "qa": "ok"
+  },
+  "A1-07-2": {
+    "file": "A1-07-2.flac",
+    "duration": 3.253,
+    "who": "PEMBERTON",
+    "text": "Pemberton. Odile.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "00be2646991c",
+    "qa": "ok"
+  },
+  "A1-08-0": {
+    "file": "A1-08-0.flac",
+    "duration": 4.881,
+    "who": "PEMBERTON",
+    "text": "It was Henry's. It stopped the night he died.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "03769bf340d3",
+    "qa": "ok"
+  },
+  "A1-08-1": {
+    "file": "A1-08-1.flac",
+    "duration": 2.707,
+    "who": "PEMBERTON",
+    "text": "I don't need it fixed.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "248992ae3f0f",
+    "qa": "ok"
+  },
+  "A1-08-2": {
+    "file": "A1-08-2.flac",
+    "duration": 5.123,
+    "who": "PEMBERTON",
+    "text": "I just want to know if he was happy. When he bought it.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "c2a6fcbd4782",
+    "qa": "ok"
+  },
+  "A1-08-3": {
+    "file": "A1-08-3.flac",
+    "duration": 1.632,
+    "who": "PEMBERTON",
+    "text": "He never told me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "4d60cfd89e4d",
+    "qa": "ok"
+  },
+  "A1-09-0": {
+    "file": "A1-09-0.flac",
+    "duration": 3.285,
+    "who": "ELIAS",
+    "text": "...Three minutes.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "25f2a5c4698a",
+    "qa": "ok"
+  },
+  "A1-11-0": {
+    "file": "A1-11-0.flac",
+    "duration": 8.142,
+    "who": "ABERNATHY",
+    "text": "Engraving's done. 'For Odile, every second, yours.'",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Orus",
+    "hash": "efc4b7c2a58a",
+    "qa": "ok"
+  },
+  "A1-11-1": {
+    "file": "A1-11-1.flac",
+    "duration": 2.322,
+    "who": "ABERNATHY",
+    "text": "Bit much, isn't it?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Orus",
+    "hash": "9086993bf90c",
+    "qa": "ok"
+  },
+  "A1-11-2": {
+    "file": "A1-11-2.flac",
+    "duration": 2.502,
+    "who": "HENRY",
+    "text": "It's not enough.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Puck",
+    "hash": "68243d948c13",
+    "qa": "ok"
+  },
+  "A1-11-3": {
+    "file": "A1-11-3.flac",
+    "duration": 1.926,
+    "who": "HENRY",
+    "text": "I'm asking her tonight.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Puck",
+    "hash": "a5d0c1783be4",
+    "qa": "ok"
+  },
+  "A1-11-4": {
+    "file": "A1-11-4.flac",
+    "duration": 4.414,
+    "who": "HENRY",
+    "text": "I'm terrified, Mr. Abernathy.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Puck",
+    "hash": "408a4d3c8c8e",
+    "qa": "ok"
+  },
+  "A1-11-5": {
+    "file": "A1-11-5.flac",
+    "duration": 2.837,
+    "who": "ABERNATHY",
+    "text": "Good. Means it matters.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Orus",
+    "hash": "f39119e2898b",
+    "qa": "ok"
+  },
+  "A1-12-0": {
+    "file": "A1-12-0.flac",
+    "duration": 1.977,
+    "who": "HENRY",
+    "text": "Every second.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Puck",
+    "hash": "c2fd525ccacd",
+    "qa": "ok"
+  },
+  "A1-12-1": {
+    "file": "A1-12-1.flac",
+    "duration": 2.549,
+    "who": "HENRY",
+    "text": "Every single one.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Puck",
+    "hash": "71df4708316a",
+    "qa": "ok"
+  },
+  "A1-14-0": {
+    "file": "A1-14-0.flac",
+    "duration": 3.21,
+    "who": "PEMBERTON",
+    "text": "Mr. Thorne, you're bleeding—",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "299cb09f3900",
+    "qa": "ok"
+  },
+  "A1-14-1": {
+    "file": "A1-14-1.flac",
+    "duration": 2.254,
+    "who": "ELIAS",
+    "text": "It's nothing. It's—",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "85852f73db7c",
+    "qa": "ok"
+  },
+  "A1-14-2": {
+    "file": "A1-14-2.flac",
+    "duration": 2.627,
+    "who": "ELIAS",
+    "text": "He was terrified.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "58efbfc8e105",
+    "qa": "ok"
+  },
+  "A1-14-3": {
+    "file": "A1-14-3.flac",
+    "duration": 3.963,
+    "who": "ELIAS",
+    "text": "And he was the happiest man I've ever seen.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "bc64a73310cc",
+    "qa": "ok"
+  },
+  "A1-14-4": {
+    "file": "A1-14-4.flac",
+    "duration": 1.888,
+    "who": "PEMBERTON",
+    "text": "Every second...",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "d3c89b5566c4",
+    "qa": "ok"
+  },
+  "A1-14-5": {
+    "file": "A1-14-5.flac",
+    "duration": 1.609,
+    "who": "PEMBERTON",
+    "text": "He used to say that.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Gacrux",
+    "hash": "cb163d9617ee",
+    "qa": "ok"
+  },
+  "A1-15-0": {
+    "file": "A1-15-0.flac",
+    "duration": 2.661,
+    "who": "ELIAS",
+    "text": "Everything remembers being made.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "27e9a7549d90",
+    "qa": "ok"
+  },
+  "A1-15-1": {
+    "file": "A1-15-1.flac",
+    "duration": 5.53,
+    "who": "ELIAS",
+    "text": "I've just never wanted to know how anything ends.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "bf2ad7a3438e",
+    "qa": "ok"
+  },
+  "A2-05-0": {
+    "file": "A2-05-0.flac",
+    "duration": 4.255,
+    "who": "CHILD",
+    "text": "Mum... why is the sky bleeding?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Leda",
+    "hash": "374a5299dcd5",
+    "qa": "ok"
+  },
+  "A2-09-0": {
+    "file": "A2-09-0.flac",
+    "duration": 8.967,
+    "who": "ANCHOR",
+    "text": "...a phenomenon meteorologists are calling an 'atmospheric glitch', reported across the entire northern hemisphere at three-twelve this afternoon.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Rasalgethi",
+    "hash": "8b5824911430",
+    "qa": "ok"
+  },
+  "A2-10-0": {
+    "file": "A2-10-0.flac",
+    "duration": 6.515,
+    "who": "MARLOWE",
+    "text": "Our instruments registered a gravitational anomaly lasting exactly nine seconds.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Sadaltager",
+    "hash": "ad4c7015e764",
+    "qa": "ok"
+  },
+  "A2-10-1": {
+    "file": "A2-10-1.flac",
+    "duration": 7.284,
+    "who": "MARLOWE",
+    "text": "Gravity didn't fail. It... doubled.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Sadaltager",
+    "hash": "6a4b6fb556a9",
+    "qa": "ok"
+  },
+  "A2-10-2": {
+    "file": "A2-10-2.flac",
+    "duration": 5.667,
+    "who": "MARLOWE",
+    "text": "As though the atmosphere was rejecting something.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Sadaltager",
+    "hash": "ef9c438686dd",
+    "qa": "ok"
+  },
+  "A2-11-0": {
+    "file": "A2-11-0.flac",
+    "duration": 3.855,
+    "who": "ANCHOR",
+    "text": "Officials insist there is no cause for alarm.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Rasalgethi",
+    "hash": "69ed94e8fde8",
+    "qa": "ok"
+  },
+  "A2-12-0": {
+    "file": "A2-12-0.flac",
+    "duration": 2.467,
+    "who": "ELIAS",
+    "text": "Nine seconds.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "c12e729fc583",
+    "qa": "ok"
+  },
+  "A2-12-1": {
+    "file": "A2-12-1.flac",
+    "duration": 2.48,
+    "who": "ELIAS",
+    "text": "I told myself it was nothing.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "321188ba6690",
+    "qa": "ok"
+  },
+  "A2-12-2": {
+    "file": "A2-12-2.flac",
+    "duration": 3.29,
+    "who": "ELIAS",
+    "text": "I'm very good at that.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "9026690e4705",
+    "qa": "ok"
+  },
+  "A3-04-0": {
+    "file": "A3-04-0.flac",
+    "duration": 2.979,
+    "who": "SEREN",
+    "text": "Elias Thorne.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "f38e07b7143c",
+    "qa": "ok"
+  },
+  "A3-04-1": {
+    "file": "A3-04-1.flac",
+    "duration": 2.406,
+    "who": "SEREN",
+    "text": "The man who touches things.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "fa77a0163940",
+    "qa": "ok"
+  },
+  "A3-04-2": {
+    "file": "A3-04-2.flac",
+    "duration": 4.36,
+    "who": "ELIAS",
+    "text": "We're— we're closed. There's a hospital two streets—",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "205d0688d0ba",
+    "qa": "ok"
+  },
+  "A3-04-3": {
+    "file": "A3-04-3.flac",
+    "duration": 2.603,
+    "who": "SEREN",
+    "text": "Hospitals can't fix what's wrong with me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "1602b81273d7",
+    "qa": "ok"
+  },
+  "A3-04-4": {
+    "file": "A3-04-4.flac",
+    "duration": 1.365,
+    "who": "SEREN",
+    "text": "Or with you.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "71fb7dc3bfe5",
+    "qa": "ok"
+  },
+  "A3-05-0": {
+    "file": "A3-05-0.flac",
+    "duration": 3.145,
+    "who": "ELIAS",
+    "text": "Where did you get that?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "9cdf6998b24e",
+    "qa": "ok"
+  },
+  "A3-05-1": {
+    "file": "A3-05-1.flac",
+    "duration": 2.618,
+    "who": "SEREN",
+    "text": "From a world that died yesterday.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "15c309c12ad8",
+    "qa": "ok"
+  },
+  "A3-06-0": {
+    "file": "A3-06-0.flac",
+    "duration": 4.816,
+    "who": "ELIAS",
+    "text": "No. No, whatever this is, I catalogue things. I date furniture. I'm not—",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "bdcfc89cef3d",
+    "qa": "ok"
+  },
+  "A3-06-1": {
+    "file": "A3-06-1.flac",
+    "duration": 4.009,
+    "who": "SEREN",
+    "text": "Brave? I know.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "3cb261407c42",
+    "qa": "ok"
+  },
+  "A3-06-2": {
+    "file": "A3-06-2.flac",
+    "duration": 2.32,
+    "who": "SEREN",
+    "text": "I'm not asking you to be brave.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "2a5e9290f922",
+    "qa": "ok"
+  },
+  "A3-06-3": {
+    "file": "A3-06-3.flac",
+    "duration": 2.78,
+    "who": "SEREN",
+    "text": "I'm asking you to touch it.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "a32837aacb2c",
+    "qa": "ok"
+  },
+  "A3-07-0": {
+    "file": "A3-07-0.flac",
+    "duration": 2.362,
+    "who": "ELIAS",
+    "text": "What is THAT?!",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "f8c11e6642f1",
+    "qa": "ok"
+  },
+  "A3-07-1": {
+    "file": "A3-07-1.flac",
+    "duration": 2.757,
+    "who": "SEREN",
+    "text": "A Fray. Leftovers.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "5eac7ae5f646",
+    "qa": "ok"
+  },
+  "A3-07-2": {
+    "file": "A3-07-2.flac",
+    "duration": 6.428,
+    "who": "SEREN",
+    "text": "When two worlds touch, things get... mixed.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "ad5ca957528a",
+    "qa": "ok"
+  },
+  "A3-09-0": {
+    "file": "A3-09-0.flac",
+    "duration": 3.175,
+    "who": "SEREN",
+    "text": "They're coming through faster.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "f91f72144969",
+    "qa": "ok"
+  },
+  "A3-09-1": {
+    "file": "A3-09-1.flac",
+    "duration": 1.139,
+    "who": "SEREN",
+    "text": "Please.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "e7b6c91b6d19",
+    "qa": "ok"
+  },
+  "A3-09-2": {
+    "file": "A3-09-2.flac",
+    "duration": 2.288,
+    "who": "ELIAS",
+    "text": "It's warm.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "cb4ffdbecace",
+    "qa": "ok"
+  },
+  "A3-09-3": {
+    "file": "A3-09-3.flac",
+    "duration": 6.441,
+    "who": "ELIAS",
+    "text": "Rule three. I don't touch anything that's still warm.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "13c63589e939",
+    "qa": "ok"
+  },
+  "A3-09-4": {
+    "file": "A3-09-4.flac",
+    "duration": 1.769,
+    "who": "SEREN",
+    "text": "In nine days...",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "3ce32ebf1503",
+    "qa": "ok"
+  },
+  "A3-09-5": {
+    "file": "A3-09-5.flac",
+    "duration": 3.829,
+    "who": "SEREN",
+    "text": "...everything you love will be cold.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "d648d9f8fcc7",
+    "qa": "ok"
+  },
+  "A3-10-0": {
+    "file": "A3-10-0.flac",
+    "duration": 1.579,
+    "who": "ELIAS",
+    "text": "Wait, don't—!",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "dea0ad5c4762",
+    "qa": "ok"
+  },
+  "A3-11-0": {
+    "file": "A3-11-0.flac",
+    "duration": 0.818,
+    "who": "SEREN",
+    "text": "Good.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "cdc297bd90e5",
+    "qa": "ok"
+  },
+  "A4-02-0": {
+    "file": "A4-02-0.flac",
+    "duration": 2.717,
+    "who": "ELIAS",
+    "text": "Where— what is this?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "700cba8af60a",
+    "qa": "ok"
+  },
+  "A4-02-1": {
+    "file": "A4-02-1.flac",
+    "duration": 2.142,
+    "who": "ELIAS",
+    "text": "Hey! HEY!",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "aa106bcbe23a",
+    "qa": "ok"
+  },
+  "A4-09-0": {
+    "file": "A4-09-0.flac",
+    "duration": 3.062,
+    "who": "ELIAS",
+    "text": "...No.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "a6f833e0c877",
+    "qa": "ok"
+  },
+  "A4-09-1": {
+    "file": "A4-09-1.flac",
+    "duration": 1.349,
+    "who": "ELIAS",
+    "text": "No, no, no—",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "3ab8c53f7794",
+    "qa": "ok"
+  },
+  "A4-10-0": {
+    "file": "A4-10-0.flac",
+    "duration": 2.624,
+    "who": "YESTERDAY",
+    "text": "Hello, Elias.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "830516031e60",
+    "qa": "ok"
+  },
+  "A4-10-1": {
+    "file": "A4-10-1.flac",
+    "duration": 2.942,
+    "who": "YESTERDAY",
+    "text": "Watch closely.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "84ac28d30569",
+    "qa": "ok"
+  },
+  "A4-11-2": {
+    "file": "A4-11-2.flac",
+    "duration": 4.219,
+    "who": "YESTERDAY",
+    "text": "And when she comes for you, and she will—",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "afa17e0f7a47",
+    "qa": "ok"
+  },
+  "A4-12-1": {
+    "file": "A4-12-1.flac",
+    "duration": 4.429,
+    "who": "ALT_SEREN",
+    "text": "You aren't trying to stop the incursions.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "b61056473d15",
+    "qa": "ok"
+  },
+  "A4-12-2": {
+    "file": "A4-12-2.flac",
+    "duration": 4.219,
+    "who": "ALT_SEREN",
+    "text": "You are causing them.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "30093c8807d3",
+    "qa": "ok"
+  },
+  "C04-0": {
+    "file": "C04-0.flac",
+    "duration": 1.253,
+    "who": "YESTERDAY",
+    "text": "Shhh.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "6491414fa7aa",
+    "qa": "ok"
+  },
+  "C04-1": {
+    "file": "C04-1.flac",
+    "duration": 1.518,
+    "who": "YESTERDAY",
+    "text": "Don't look up.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "b1121c861a07",
+    "qa": "ok"
+  },
+  "C05-0": {
+    "file": "C05-0.flac",
+    "duration": 4.378,
+    "who": "YESTERDAY",
+    "text": "Two skies.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "20d128e5abe4",
+    "qa": "ok"
+  },
+  "C05-1": {
+    "file": "C05-1.flac",
+    "duration": 2.904,
+    "who": "YESTERDAY",
+    "text": "One grave.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "1a230e44ff2d",
+    "qa": "ok"
+  },
+  "C05-2": {
+    "file": "C05-2.flac",
+    "duration": 3.01,
+    "who": "YESTERDAY",
+    "text": "...I told you not to look.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "888b04bc1cd0",
+    "qa": "ok"
+  },
+  "C06-0": {
+    "file": "C06-0.flac",
+    "duration": 3.353,
+    "who": "YESTERDAY",
+    "text": "Three minutes, forty seconds.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "04c387ae15cc",
+    "qa": "ok"
+  },
+  "C06-1": {
+    "file": "C06-1.flac",
+    "duration": 1.435,
+    "who": "YESTERDAY",
+    "text": "Plenty.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "b7526aefdc74",
+    "qa": "ok"
+  },
+  "C07-0": {
+    "file": "C07-0.flac",
+    "duration": 9.364,
+    "who": "YESTERDAY",
+    "text": "You know, the first time I did this, I was so scared I couldn’t even hold the knife.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "30c8cdee6e0b",
+    "qa": "ok"
+  },
+  "C07-1": {
+    "file": "C07-1.flac",
+    "duration": 3.87,
+    "who": "YESTERDAY",
+    "text": "Now I don't even need one.",
+    "model": "gemini-2.5-pro-preview-tts",
+    "voice": "Algenib",
+    "hash": "8232fa560050",
+    "qa": "ok"
+  },
+  "C08-0": {
+    "file": "C08-0.flac",
+    "duration": 6.421,
+    "who": "ALT_SEREN",
+    "text": "You don't... have to do this...",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "9deb973e3999",
+    "qa": "ok"
+  },
+  "C09-0": {
+    "file": "C09-0.flac",
+    "duration": 1.215,
+    "who": "YESTERDAY",
+    "text": "HAVE TO?!",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "c2badd9cb895",
+    "qa": "ok"
+  },
+  "C09-1": {
+    "file": "C09-1.flac",
+    "duration": 3.71,
+    "who": "YESTERDAY",
+    "text": "Hah... hahaha...",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "dded8bc66b8e",
+    "qa": "ok"
+  },
+  "C09-2": {
+    "file": "C09-2.flac",
+    "duration": 2.7,
+    "who": "YESTERDAY",
+    "text": "...Sorry. Sorry.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "3a9104528ea2",
+    "qa": "ok"
+  },
+  "C09-3": {
+    "file": "C09-3.flac",
+    "duration": 3.063,
+    "who": "YESTERDAY",
+    "text": "I get loud near the end.",
+    "model": "gemini-2.5-pro-preview-tts",
+    "voice": "Algenib",
+    "hash": "4f1956a60dba",
+    "qa": "ok"
+  },
+  "C09-4": {
+    "file": "C09-4.flac",
+    "duration": 2.082,
+    "who": "YESTERDAY",
+    "text": "Everyone does.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "53052c808f52",
+    "qa": "ok"
+  },
+  "C10-0": {
+    "file": "C10-0.flac",
+    "duration": 3.967,
+    "who": "YESTERDAY",
+    "text": "Four thousand.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "3fb1b409a84f",
+    "qa": "ok"
+  },
+  "C10-1": {
+    "file": "C10-1.flac",
+    "duration": 2.252,
+    "who": "YESTERDAY",
+    "text": "One hundred.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "d081fd18bc4a",
+    "qa": "ok"
+  },
+  "C10-2": {
+    "file": "C10-2.flac",
+    "duration": 2.234,
+    "who": "YESTERDAY",
+    "text": "And twelve.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "b76efd8412de",
+    "qa": "ok"
+  },
+  "C11-0": {
+    "file": "C11-0.flac",
+    "duration": 3.745,
+    "who": "YESTERDAY",
+    "text": "That's how many skies I've watched fall.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "b1bb239413ae",
+    "qa": "ok"
+  },
+  "C12-0": {
+    "file": "C12-0.flac",
+    "duration": 4.69,
+    "who": "YESTERDAY",
+    "text": "Do you know what every single one of them had in common?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "860110c2d6c9",
+    "qa": "ok"
+  },
+  "C12-1": {
+    "file": "C12-1.flac",
+    "duration": 1.719,
+    "who": "YESTERDAY",
+    "text": "Me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "d4b6b544d7b8",
+    "qa": "ok"
+  },
+  "C13-0": {
+    "file": "C13-0.flac",
+    "duration": 6.839,
+    "who": "ALT_SEREN",
+    "text": "The Keepers will find you, Mister Yesterday.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "1d6b477b9fc6",
+    "qa": "ok"
+  },
+  "C14-0": {
+    "file": "C14-0.flac",
+    "duration": 2.349,
+    "who": "YESTERDAY",
+    "text": "The Keepers.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "c6d530644920",
+    "qa": "ok"
+  },
+  "C14-1": {
+    "file": "C14-1.flac",
+    "duration": 7.332,
+    "who": "YESTERDAY",
+    "text": "The Keepers are knitting a sweater for a corpse.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "e7d80f673da4",
+    "qa": "ok"
+  },
+  "C15-0": {
+    "file": "C15-0.flac",
+    "duration": 3.056,
+    "who": "YESTERDAY",
+    "text": "You think I'm taking your life.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "f213e2c05c28",
+    "qa": "ok"
+  },
+  "C15-1": {
+    "file": "C15-1.flac",
+    "duration": 1.355,
+    "who": "YESTERDAY",
+    "text": "I'm not.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "8e7296a63935",
+    "qa": "ok"
+  },
+  "C15-2": {
+    "file": "C15-2.flac",
+    "duration": 5.462,
+    "who": "YESTERDAY",
+    "text": "I'm taking it somewhere it will finally matter.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "82fd9b32529a",
+    "qa": "ok"
+  },
+  "C16-0": {
+    "file": "C16-0.flac",
+    "duration": 2.466,
+    "who": "ALT_SEREN",
+    "text": "Aaah—!",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "1d829e2512c0",
+    "qa": "ok"
+  },
+  "C18-0": {
+    "file": "C18-0.flac",
+    "duration": 0.827,
+    "who": "YESTERDAY",
+    "text": "Oh.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "5078e53102a7",
+    "qa": "ok"
+  },
+  "C18-1": {
+    "file": "C18-1.flac",
+    "duration": 2.286,
+    "who": "YESTERDAY",
+    "text": "And you.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "418638f2d7c2",
+    "qa": "ok"
+  },
+  "C18-2": {
+    "file": "C18-2.flac",
+    "duration": 3.889,
+    "who": "YESTERDAY",
+    "text": "Yes. You.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "ef993e1dc768",
+    "qa": "ok"
+  },
+  "C18-3": {
+    "file": "C18-3.flac",
+    "duration": 6.574,
+    "who": "YESTERDAY",
+    "text": "Standing there in the dark, pretending you're not there.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "9eed4d2c2765",
+    "qa": "ok"
+  },
+  "C18-4": {
+    "file": "C18-4.flac",
+    "duration": 2.166,
+    "who": "YESTERDAY",
+    "text": "I know that trick.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "d19aae2d7ec2",
+    "qa": "ok"
+  },
+  "C18-5": {
+    "file": "C18-5.flac",
+    "duration": 2.453,
+    "who": "YESTERDAY",
+    "text": "I invented it.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "8b30c5b2470b",
+    "qa": "ok"
+  },
+  "C19-0": {
+    "file": "C19-0.flac",
+    "duration": 5.159,
+    "who": "YESTERDAY",
+    "text": "Watch closely. Don't blink.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "5e42aa2f812f",
+    "qa": "ok"
+  },
+  "C19-1": {
+    "file": "C19-1.flac",
+    "duration": 1.588,
+    "who": "YESTERDAY",
+    "text": "This...",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "f24ced13cb31",
+    "qa": "ok"
+  },
+  "C19-2": {
+    "file": "C19-2.flac",
+    "duration": 3.642,
+    "who": "YESTERDAY",
+    "text": "...is what you become.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "31c70c1fa086",
+    "qa": "ok"
+  },
+  "C20-0": {
+    "file": "C20-0.flac",
+    "duration": 1.423,
+    "who": "YESTERDAY",
+    "text": "Hate me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "b45a24ae54c7",
+    "qa": "ok"
+  },
+  "C20-1": {
+    "file": "C20-1.flac",
+    "duration": 2.353,
+    "who": "YESTERDAY",
+    "text": "Good.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "1fb11efb090a",
+    "qa": "ok"
+  },
+  "C20-2": {
+    "file": "C20-2.flac",
+    "duration": 3.651,
+    "who": "YESTERDAY",
+    "text": "Hate's a better teacher than fear.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Algenib",
+    "hash": "89421cb1dea1",
+    "qa": "ok"
+  },
+  "C21-0": {
+    "file": "C21-0.flac",
+    "duration": 1.871,
+    "who": "ALT_SEREN",
+    "text": "...Elias...",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "cd4a29ab3855",
+    "qa": "ok"
+  },
+  "F02-0": {
+    "file": "F02-0.flac",
+    "duration": 3.613,
+    "who": "SEREN",
+    "text": "Elias, stop! You'll kill everyone!",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "ce352caf5f2d",
+    "qa": "ok"
+  },
+  "F02-1": {
+    "file": "F02-1.flac",
+    "duration": 0.875,
+    "who": "ELIAS",
+    "text": "...Yes.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "d70c3b835a12",
+    "qa": "ok"
+  },
+  "G01-0": {
+    "file": "G01-0.flac",
+    "duration": 1.138,
+    "who": "ELIAS",
+    "text": "Hhhah—!",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "41668863b489",
+    "qa": "ok"
+  },
+  "G03-0": {
+    "file": "G03-0.flac",
+    "duration": 1.072,
+    "who": "SEREN",
+    "text": "Elias.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "34ac1bdc64b6",
+    "qa": "ok"
+  },
+  "G03-1": {
+    "file": "G03-1.flac",
+    "duration": 1.193,
+    "who": "SEREN",
+    "text": "What did you see?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "4923265a9dca",
+    "qa": "ok"
+  },
+  "G03-2": {
+    "file": "G03-2.flac",
+    "duration": 2.072,
+    "who": "ELIAS",
+    "text": "Me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "76653612017d",
+    "qa": "ok"
+  },
+  "G03-3": {
+    "file": "G03-3.flac",
+    "duration": 3.025,
+    "who": "ELIAS",
+    "text": "I saw me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "ee037e49ccac",
+    "qa": "ok"
+  },
+  "G03-4": {
+    "file": "G03-4.flac",
+    "duration": 6.766,
+    "who": "ELIAS",
+    "text": "He— I— killed you.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "973c23d41df8",
+    "qa": "ok"
+  },
+  "G03-5": {
+    "file": "G03-5.flac",
+    "duration": 1.222,
+    "who": "SEREN",
+    "text": "Not me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "8f6a12ba1a77",
+    "qa": "ok"
+  },
+  "G03-6": {
+    "file": "G03-6.flac",
+    "duration": 0.79,
+    "who": "SEREN",
+    "text": "A me.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "99d9e486dafd",
+    "qa": "ok"
+  },
+  "G03-7": {
+    "file": "G03-7.flac",
+    "duration": 3.966,
+    "who": "SEREN",
+    "text": "Then you understand why I came.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "d6104c211298",
+    "qa": "ok"
+  },
+  "G03-8": {
+    "file": "G03-8.flac",
+    "duration": 1.465,
+    "who": "ELIAS",
+    "text": "Who are you?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "e0cb5f0347eb",
+    "qa": "ok"
+  },
+  "G04-0": {
+    "file": "G04-0.flac",
+    "duration": 0.935,
+    "who": "SEREN",
+    "text": "Seren.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "8bfaf49ba948",
+    "qa": "ok"
+  },
+  "G04-1": {
+    "file": "G04-1.flac",
+    "duration": 1.982,
+    "who": "SEREN",
+    "text": "Keeper of the Loom.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "acec5beb4bac",
+    "qa": "ok"
+  },
+  "G04-2": {
+    "file": "G04-2.flac",
+    "duration": 1.401,
+    "who": "SEREN",
+    "text": "And that...",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "294bbf881f56",
+    "qa": "ok"
+  },
+  "G04-3": {
+    "file": "G04-3.flac",
+    "duration": 2.946,
+    "who": "SEREN",
+    "text": "...is the world that's going to kill yours.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "6d4e5a11d353",
+    "qa": "ok"
+  },
+  "G04-4": {
+    "file": "G04-4.flac",
+    "duration": 1.406,
+    "who": "ELIAS",
+    "text": "How long?",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "1b4b00f66ebf",
+    "qa": "ok"
+  },
+  "G04-5": {
+    "file": "G04-5.flac",
+    "duration": 2.075,
+    "who": "SEREN",
+    "text": "Nine days.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "27f90b59354f",
+    "qa": "ok"
+  },
+  "G05-0": {
+    "file": "G05-0.flac",
+    "duration": 5.513,
+    "who": "ELIAS",
+    "text": "Rule three. Never touch anything that's still warm.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "38c44d9e25e3",
+    "qa": "ok"
+  },
+  "G05-1": {
+    "file": "G05-1.flac",
+    "duration": 3.608,
+    "who": "ELIAS",
+    "text": "I should have had a rule about people.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Charon",
+    "hash": "c670f3697e73",
+    "qa": "ok"
+  },
+  "S01-0": {
+    "file": "S01-0.flac",
+    "duration": 2.77,
+    "who": "ATROPOS",
+    "text": "There you are.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "9ee6a3fb9864",
+    "qa": "ok"
+  },
+  "S01-1": {
+    "file": "S01-1.flac",
+    "duration": 3.455,
+    "who": "ATROPOS",
+    "text": "...I'm sorry.",
+    "model": "gemini-3.1-flash-tts-preview",
+    "voice": "Kore",
+    "hash": "af1cfe9000d8",
+    "qa": "ok"
+  }
+}
