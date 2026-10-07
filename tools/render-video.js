@@ -71,7 +71,7 @@ const list = path.join(tmp, 'list.txt');
 fs.writeFileSync(list, segs.map((s) => `file '${s}'`).join('\n'));
 const muxArgs = ['-y', '-loglevel', 'error', '-f', 'concat', '-safe', '0', '-i', list];
 if (fs.existsSync(soundtrack) && !args['no-audio']) {
-  muxArgs.push('-ss', String(from), '-t', String(to - from), '-i', soundtrack, '-map', '0:v', '-map', '1:a', '-c:a', 'aac', '-b:a', '192k', '-af', 'loudnorm=I=-16:TP=-1.5:LRA=14');
+  muxArgs.push('-ss', String(from), '-t', String(to - from), '-i', soundtrack, '-map', '0:v', '-map', '1:a', '-c:a', 'aac', '-b:a', '192k', '-af', 'loudnorm=I=-16:TP=-1.5:LRA=14', '-ar', '48000');
 } else if (!args['no-audio']) console.log('  (no soundtrack.wav: run `npm run soundtrack` for sound)');
 muxArgs.push('-c:v', 'copy', '-movflags', '+faststart', '-shortest', OUT);
 await run('ffmpeg', muxArgs);
