@@ -70,6 +70,7 @@ npm run voices -- --model gemini-2.5-pro-preview-tts
 ### Visual QA
 
 ```bash
+npm run check                        # draw every frame at low res and report any scene that throws (~1 min)
 npm run stills                       # contact sheet of every shot → build/ep01/contact-sheet.jpg
 npm run stills -- --shots C18,A4-06  # specific shots
 npm run screenplay                   # regenerate the screenplay from the script

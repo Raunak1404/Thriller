@@ -23,8 +23,9 @@ function grainTile() {
   return c;
 }
 
-export function createRenderer(canvas, timeline) {
+export function createRenderer(canvas, timeline, { onError } = {}) {
   const ctx = canvas.getContext('2d');
+  const errors = new Set();
   const scale = canvas.width / W;
   const buf = makeCanvas(canvas.width, canvas.height);
   const bctx = buf.getContext('2d');
@@ -90,10 +91,16 @@ export function createRenderer(canvas, timeline) {
     ctx.scale(drift, drift);
     ctx.translate(-W / 2, -H / 2);
     const scene = SCENES[shot.scene];
-    if (scene) scene(ctx, s);
-    else {
-      ctx.fillStyle = '#300';
-      ctx.fillRect(0, 0, W, H);
+    try {
+      if (!scene) throw new Error(`unknown scene "${shot.scene}"`);
+      scene(ctx, s);
+    } catch (e) {
+      // A drawing bug must never stop playback: log it once and keep going.
+      if (!errors.has(shot.id)) {
+        errors.add(shot.id);
+        console.error(`[render] shot ${shot.id} at ${T.toFixed(2)}s: ${e.message}`);
+      }
+      onError?.(shot, T, e);
     }
 
     // pixel-space effects

@@ -40,8 +40,14 @@ async function boot() {
     canvas.width = Math.round(W * scale);
     canvas.height = Math.round(H * scale);
     document.body.classList.add('render');
-    const r = createRenderer(canvas, timeline);
+    const failures = [];
+    const r = createRenderer(canvas, timeline, { onError: (shot, t, e) => failures.push({ shot: shot.id, t, error: e.message }) });
     window.__episode = {
+      check(from, to, fps = 24) {
+        failures.length = 0;
+        for (let f = Math.round(from * fps); f < Math.round(to * fps); f++) r.render(f / fps);
+        return failures.slice(0, 50);
+      },
       duration: timeline.duration,
       frame(t, type = 'image/jpeg', quality = 0.92) {
         r.render(t);

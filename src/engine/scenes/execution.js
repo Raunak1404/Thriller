@@ -823,9 +823,12 @@ export function number(ctx, s) {
         ctx.strokeStyle = 'rgba(20,4,28,0.95)';
         ctx.lineWidth = 6;
         const pts = lightningPath(x + w * 0.2, H * 0.43 - 170, x + w * 0.75, H * 0.43 + 170, i, 0.25, 4, rnd);
-        ctx.beginPath();
-        poly(ctx, pts.slice(0, Math.ceil(pts.length * clamp((t - at - 0.1) / 0.3))), false);
-        ctx.stroke();
+        const shown = pts.slice(0, Math.ceil(pts.length * clamp((t - at - 0.1) / 0.3)));
+        if (shown.length > 1) {
+          ctx.beginPath();
+          poly(ctx, shown, false);
+          ctx.stroke();
+        }
       }
     }
     x += w;

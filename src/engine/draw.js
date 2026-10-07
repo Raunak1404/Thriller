@@ -103,6 +103,7 @@ export function smoothPath(ctx, pts, closed = true, tension = 0.5) {
 }
 
 export function poly(ctx, pts, close = true) {
+  if (!pts.length) return;
   ctx.moveTo(pts[0][0], pts[0][1]);
   for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
   if (close) ctx.closePath();
