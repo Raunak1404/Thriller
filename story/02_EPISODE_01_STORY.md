@@ -1,6 +1,6 @@
 # Episode 1 — "Two Skies, One Grave"
 
-**Runtime:** ~15 minutes (premiere)
+**Runtime:** 13:59 as produced (premiere; target ~15 min)
 **Part One:** *The Bruised Sky*
 **Purpose:** Hook the audience with a protagonist who appears to be the villain, establish the rules of the gift, and end on a nine-day countdown.
 
@@ -13,14 +13,14 @@
 
 ```
 0:00  ▌FLASH-FORWARD   "You'll kill everyone." "...Yes."               (voice in the dark)
-0:20  ▌COLD OPEN       THE EXECUTION — a monster on a rooftop, two Earths overhead
-3:30  ▌TITLE           The key weaves itself, then shatters into the title
-4:00  ▌ACT ONE         THE ARCHIVIST — rules, gloves, a widow's watch, the gift
-7:15  ▌ACT TWO         THE BRUISED SKY — nine seconds when the sky bleeds
-9:30  ▌ACT THREE       THE WOMAN WITH THE KEY — Seren, a Fray, a forced touch
-11:45 ▌ACT FOUR        THE INCURSION — the cold open again, from his eyes
-14:15 ▌TAG             NINE DAYS — a second Earth in the night sky
-15:15 ▌STINGER         ATROPOS — "There you are... I'm sorry."
+0:13  ▌COLD OPEN       THE EXECUTION — a monster on a rooftop, two Earths overhead
+3:35  ▌TITLE           The key weaves itself, then shatters into the title
+3:52  ▌ACT ONE         THE ARCHIVIST — rules, gloves, a widow's watch, the gift
+7:16  ▌ACT TWO         THE BRUISED SKY — nine seconds when the sky bleeds
+8:50  ▌ACT THREE       THE WOMAN WITH THE KEY — Seren, a Fray, a forced touch
+10:37 ▌ACT FOUR        THE INCURSION — the cold open again, from his eyes
+12:17 ▌TAG             NINE DAYS — a second Earth in the night sky
+13:42 ▌STINGER         ATROPOS — "There you are... I'm sorry."
 ```
 
 The episode is a **bookend**. It opens and closes on the same rooftop at the same moment. The first time, we watch a villain. The second time, we're standing invisible beside him and realize **the villain is the hero's own face**. He knew we were there, and he was talking to us all along.
@@ -29,7 +29,7 @@ The episode is a **bookend**. It opens and closes on the same rooftop at the sam
 
 ## Beat Sheet
 
-### ▌FLASH-FORWARD (0:00–0:20)
+### ▌FLASH-FORWARD (0:00–0:13)
 Total black, with subliminal two-frame flashes of a sky full of colliding Earths.
 - **SEREN** *(O.S., desperate, echoing)*: "Elias, STOP! You'll kill everyone!"
 - Silence.
@@ -38,7 +38,7 @@ Total black, with subliminal two-frame flashes of a sky full of colliding Earths
 
 *This is Episode 22, heard without context. It makes our protagonist sound like a world-killer before we've even met him.*
 
-### ▌COLD OPEN — "The Execution" (0:20–3:30)
+### ▌COLD OPEN — "The Execution" (0:13–3:35)
 - Super: **SOMEWHERE ELSE. / YESTERDAY.** A countdown HUD appears: `IMPACT 03:41`.
 - **Wide:** Merridale in ruins under an upside-down Earth that fills half the sky. Rain falls *upward*. Buildings peel off the ground. St. Ansel's Clocktower is cracked and frozen at 11:58.
 - **The rooftop:** a coat-whipped silhouette, **MISTER YESTERDAY**, holds a kneeling woman by the collar. We never see his face, only two pale cyan clock-ring eyes.
@@ -53,10 +53,10 @@ Total black, with subliminal two-frame flashes of a sky full of colliding Earths
 - Her eyes slide past him, to us: **"...Elias..."**
 - The Earths touch. White. `00:00`. **Smash to black.**
 
-### ▌TITLE (3:30–4:00)
+### ▌TITLE (3:35–3:52)
 Violet threads weave the obsidian key in the dark, and it shatters into **THE ANCHOR OF YESTERDAY**.
 
-### ▌ACT ONE — "The Archivist" (4:00–7:15)
+### ▌ACT ONE — "The Archivist" (3:52–7:16)
 - **Match cut** to the same wide of Merridale, intact at dawn, with birds. Super: **MERRIDALE. TODAY.** The countdown HUD flickers once, a ghost, and disappears.
 - **Thorne Archival.** Dust in light shafts. Elias, gloved, catalogues.
 - **V.O.:** *"Everything that was ever made remembers being made..."* His gift is explained in his own words. "So I don't touch much."
@@ -68,7 +68,7 @@ Violet threads weave the obsidian key in the dark, and it shatters into **THE AN
 - **Snap back.** A nosebleed. "He was terrified. And he was the happiest man I've ever seen." She weeps and smiles: "Every second. He used to say that."
 - Alone, he looks at the letter. **V.O.:** *"Everything remembers being made. I've just never wanted to know how anything ends."*
 
-### ▌ACT TWO — "The Bruised Sky" (7:15–9:30)
+### ▌ACT TWO — "The Bruised Sky" (7:16–8:50)
 - The radio dissolves into static. The grandfather clock's pendulum **stops mid-swing, at an angle**. Dust freezes. A drop of tea floats **upward**.
 - Outside, the sky **bleeds purple from the zenith, like ink in water**. Starlings hang motionless. A child asks, "Mum... why is the sky bleeding?"
 - For one instant, a **ghost of an inverted skyline** hangs above them: the same clocktower, upside down.
@@ -77,7 +77,7 @@ Violet threads weave the obsidian key in the dark, and it shatters into **THE AN
 - **News:** "an atmospheric glitch." **Dr. Marlowe:** "Gravity didn't fail. It... doubled. As though the atmosphere was *rejecting* something."
 - **V.O.:** *"Nine seconds. I told myself it was nothing. I'm very good at that."*
 
-### ▌ACT THREE — "The Woman with the Key" (9:30–11:45)
+### ▌ACT THREE — "The Woman with the Key" (8:50–10:37)
 - Night and rain. Elias flips the sign to CLOSED.
 - **BANG.** The door flies open and the bell shrieks. **SEREN** staggers in, bleeding, clutching a bundle that glows violet through the cloth. "Elias Thorne. The man who touches things."
 - She unwraps a **shattered obsidian key**, smoking and pulsing. Every object in the shop **leans toward it**, and his gloves smoke.
@@ -88,7 +88,7 @@ Violet threads weave the obsidian key in the dark, and it shatters into **THE AN
 - He won't move, so **she grabs his wrist, strips his glove, and presses the key into his palm.**
 - *Seed:* as he's ripped away, her face shows calculation, not relief. A breath: **"Good."**
 
-### ▌ACT FOUR — "The Incursion" (11:45–14:15)
+### ▌ACT FOUR — "The Incursion" (10:37–12:17)
 - **Retrospection #2 (violent):** the shop **shatters like glass**. Elias is hurled down a tunnel of violet threads past thousands of Earths. His gold ring timer **cracks and turns violet**.
 - **He lands on the rooftop from the cold open, behind Mister Yesterday.** `IMPACT 01:08`.
 - He screams and no one hears. He grabs Mister Yesterday's arm and his hand passes through.
@@ -102,7 +102,7 @@ Violet threads weave the obsidian key in the dark, and it shatters into **THE AN
 - *Blink-and-miss (6 frames):* a masked figure on a floating shard high above, watching.
 - The worlds touch. White.
 
-### ▌TAG — "Nine Days" (14:15–15:15)
+### ▌TAG — "Nine Days" (12:17–13:42)
 - **Snap back.** Blood from his nose and ear. The key cools on the floorboards.
 - Seren holds his face: "Elias. What did you see?" / **"Me. I saw me."**
 - "Not me. *A* me. Then you understand why I came."
@@ -111,7 +111,7 @@ Violet threads weave the obsidian key in the dark, and it shatters into **THE AN
 - **V.O.:** *"Rule three. Never touch anything that's still warm. I should have had a rule about people."*
 - HUD: `INCURSION — 08D 23H 59M 59S`. One second ticks. **Black.**
 
-### ▌STINGER — "Atropos" (15:15–15:45)
+### ▌STINGER — "Atropos" (13:42–13:59)
 - The Loom: a void strung with thousands of luminous threads. **A porcelain mask with a golden kintsugi crack.** She runs a finger along the threads, and one flares gold.
 - **ATROPOS** *(layered)*: "There you are."
 - Silver scissors cut the neighboring thread. Far away, a world winks out.

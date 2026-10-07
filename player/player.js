@@ -6,7 +6,9 @@ import { W, H } from '../src/engine/draw.js';
 
 const ROOT = new URL('..', import.meta.url);
 const qs = new URLSearchParams(location.search);
-const EPISODE = qs.get('episode') || 'ep01';
+// A hosting page may preset options (the published preview uses this).
+const CONFIG = window.__PLAYER_CONFIG__ || {};
+const EPISODE = qs.get('episode') || CONFIG.episode || 'ep01';
 const RENDER_MODE = qs.has('render');
 
 async function loadFonts() {
@@ -59,15 +61,20 @@ async function boot() {
   const renderer = createRenderer(canvas, timeline);
 
   const audio = document.getElementById('audio');
-  const src = qs.get('audio') || `build/${EPISODE}/soundtrack.m4a`;
+  const src = qs.get('audio') || CONFIG.audio || `build/${EPISODE}/soundtrack.m4a`;
   let hasAudio = false;
-  try {
-    const head = await fetch(new URL(src, ROOT), { method: 'HEAD' });
-    if (head.ok) {
-      audio.src = new URL(src, ROOT).href;
-      hasAudio = true;
-    }
-  } catch {}
+  if (CONFIG.audio) {
+    audio.src = new URL(src, ROOT).href;
+    hasAudio = true;
+  } else {
+    try {
+      const head = await fetch(new URL(src, ROOT), { method: 'HEAD' });
+      if (head.ok) {
+        audio.src = new URL(src, ROOT).href;
+        hasAudio = true;
+      }
+    } catch {}
+  }
   document.getElementById('noaudio').hidden = hasAudio;
 
   // UI
@@ -105,14 +112,14 @@ async function boot() {
     if (hasAudio) audio.currentTime = T;
     draw();
   }
-  function setPlaying(p) {
+  let setPlaying = function (p) {
     playing = p;
     ui.play.textContent = p ? '❚❚' : '▶';
     ui.play.setAttribute('aria-label', p ? 'Pause' : 'Play');
     document.body.classList.toggle('playing', p);
     if (hasAudio) (p ? audio.play() : audio.pause())?.catch?.(() => {});
     last = performance.now();
-  }
+  };
   function draw() {
     const shot = renderer.render(clock());
     const t = clock();
@@ -132,6 +139,35 @@ async function boot() {
 
   ui.play.addEventListener('click', () => setPlaying(!playing));
   canvas.addEventListener('click', () => setPlaying(!playing));
+  // Poster: show a still from the title sequence until the first play.
+  const poster = document.getElementById('poster');
+  let started = !poster;
+  const begin = () => {
+    if (started) return;
+    started = true;
+    poster.hidden = true;
+    seek(0);
+    setPlaying(true);
+  };
+  if (poster) {
+    document.getElementById('poster-play').addEventListener('click', begin);
+    const chapters = document.getElementById('poster-chapters');
+    for (const seq of timeline.sequences) {
+      const b = document.createElement('button');
+      b.textContent = `${fmt(seq.start)}  ${seq.title}`;
+      b.addEventListener('click', () => {
+        begin();
+        seek(seq.start + 0.01);
+      });
+      chapters?.appendChild(b);
+    }
+    document.getElementById('poster-runtime').textContent = fmt(timeline.duration);
+  }
+  const wrapPlay = setPlaying;
+  setPlaying = (p) => {
+    if (!started) return begin();
+    wrapPlay(p);
+  };
   ui.bar.addEventListener('click', (e) => {
     const r = ui.bar.getBoundingClientRect();
     seek(((e.clientX - r.left) / r.width) * timeline.duration);
@@ -156,7 +192,8 @@ async function boot() {
   });
   if (hasAudio) audio.addEventListener('seeked', draw);
   document.getElementById('loading').remove();
-  seek(T);
+  const posterAt = poster ? timeline.shots.find((x) => x.scene === 'title') : null;
+  seek(posterAt ? posterAt.start + posterAt.dur * 0.62 : T);
   requestAnimationFrame(loop);
 }
 

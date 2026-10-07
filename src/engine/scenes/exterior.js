@@ -383,10 +383,13 @@ export function title(ctx, s) {
   additive(ctx, () => glow(ctx, W / 2, H / 2, 900, '#9b5cff', 0.5 * Math.exp(-u * 1.2) + 0.1));
   // title letters assembling
   const titleStr = 'THE ANCHOR OF YESTERDAY';
-  setFont(ctx, FONTS.title, 112, 700);
+  // fit the title inside the frame with a margin, whatever the font metrics
+  setFont(ctx, FONTS.title, 104, 700);
+  if ('letterSpacing' in ctx) ctx.letterSpacing = '10px';
+  const fitSize = Math.min(104, (104 * 1640) / ctx.measureText(titleStr).width);
+  setFont(ctx, FONTS.title, fitSize, 700);
   ctx.textBaseline = 'middle';
   ctx.textAlign = 'left';
-  if ('letterSpacing' in ctx) ctx.letterSpacing = '10px';
   const tw = ctx.measureText(titleStr).width;
   let x = W / 2 - tw / 2;
   const fadeOut = 1 - smoothstep(s.dur - shatterAt - 1.2, s.dur - shatterAt, u);

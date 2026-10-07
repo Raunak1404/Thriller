@@ -2,15 +2,16 @@
   "name": "anchor-of-yesterday",
   "version": "0.1.0",
   "private": true,
-  "description": "THE ANCHOR OF YESTERDAY — animated thriller series production pipeline (story, voices, motion-graphics renderer).",
+  "description": "THE ANCHOR OF YESTERDAY \u2014 animated thriller series production pipeline (story, voices, motion-graphics renderer).",
   "type": "module",
   "scripts": {
     "voices": "node tools/generate-voices.js",
     "soundtrack": "node tools/build-soundtrack.js",
     "preview": "node tools/serve.js",
-    "render": "node tools/render-video.js",
     "stills": "node tools/stills.js",
+    "render": "node tools/render-video.js",
     "screenplay": "node tools/screenplay.js",
+    "publish-preview": "node tools/build-preview.js",
     "build": "npm run voices && npm run soundtrack && npm run render"
   },
   "devDependencies": {

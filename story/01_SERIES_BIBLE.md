@@ -180,4 +180,18 @@ An old harbor city: rain, brass, cobblestones, gas-lamp nostalgia beside modern 
 - **Score:** Built on two themes. **The Anchor theme** (the four-note lullaby on a detuned music box) and **The Grind** (sub-bass drones plus metallic friction, the sound of two atmospheres touching).
 - **Ticking** is the series' heartbeat. Every major scene has a clock in it somewhere.
 - **Dialogue delivery is the show's special effect.** Each line in the production script carries a delivery direction (e.g. *"tender whisper, almost a lullaby"*, *"explodes, then instantly calm"*). These are fed directly into the TTS style prompts.
-- **Same-voice casting:** Mister Yesterday uses our Elias's voice family, older and gravelly. Atropos is Seren's voice, multi-layered.
+- **Casting (Google Gemini TTS prebuilt voices, set in `src/cast.js`):**
+
+| Character | Voice | Treatment |
+|---|---|---|
+| Elias Thorne | Charon | Close, dry; V.O. almost no room |
+| Mister Yesterday | Algenib | Gravelly; big outdoor reverb on the rooftop |
+| Seren / Seren of the dying world | Kore | Same voice for both: she is the same woman |
+| Atropos | Kore | Pitched down, layered chorus and echo (Seren, millennia later) |
+| Mrs. Pemberton | Gacrux | |
+| Henry (1962) · Mr. Abernathy | Puck · Orus | Band-limited like an old recording |
+| Dr. Hale's office | Despina | Telephone filter |
+| News anchor · Dr. Marlowe | Rasalgethi · Sadaltager | Broadcast EQ |
+| Child | Leda | |
+
+  *Option for later:* re-cast Mister Yesterday on Charon with an "older, ruined" direction, so the audience half-recognises Elias's voice before the reveal.
