@@ -40,8 +40,9 @@ Requires Node 20+ and ffmpeg.
 npm install                      # Playwright for headless rendering
 npm run soundtrack               # mix build/ep01/soundtrack.{wav,m4a}
 npm run preview                  # http://localhost:8080/player/  (watch it live, scrub, chapter jumps)
-npm run render                   # build/ep01/ep01.mp4 at 1080p24 (~40 min on 4 cores)
+npm run render                   # build/ep01/ep01.mp4 at 1080p24 (~25 min on 4 cores)
 npm run render -- --scale 0.6667 # 720p, about twice as fast
+npm run publish-preview          # stage a self-contained web player in build/preview/
 ```
 
 The voice takes are already in the repo, so you only need an API key to change dialogue.
